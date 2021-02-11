@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+
+
+    <nav>
+        <div class="grid grid-cols-6  lg:grid-cols-12  shadow-md">
+
+            <div id="menu" class="grid lg:grid-cols-3 grid-cols-1 col-span-3 col-start-2">
+                <div class=" w-10 h-10  my-5">
+                    <center>
+                        <a href="../index.html" class="block mt-4 lg:inline-block lg:mt-0 text-teal-lighter text-gray-500 font-bold hover:text-gray-700">Inicio</a>
+                        <a class="w-3 h-3  rounded-full bg-gray-300  flex justify-center items-center" href="../index.html"></a>
+                    </center>
+                </div>
+                <div class=" w-10 h-10  my-5">
+                    <a href="almacen.html" class="block mt-4 lg:inline-block lg:mt-0 text-teal-lighter text-gray-500 font-bold hover:text-gray-700">Almacen</a>
+                    <center>
+                        <a class="w-3 h-3  rounded-full bg-gray-300 flex justify-center items-center" href="almacen.html"></a>
+                    </center>
+                </div>
+                <div class=" w-10 h-10   my-5">
+                    <a href="#" class="block mt-4 lg:inline-block lg:mt-0 text-teal-lighter text-gray-500 font-bold hover:text-gray-700">Ventas</a>
+                    <center>
+                        <a class="w-3 h-3  rounded-full bg-green-300 flex justify-center items-center" href="#"></a>
+                    </center>
+                </div>
+            </div>
+
+            <div class="col-start-3 lg:col-start-6 col-span-2 lg:col-span-2 ">
+                <div class="mt-5">
+                    <center><img src="../img/logo-as.png" class="w-10 h-10" alt=""></center>
+                </div>
+            </div>
+
+            <div class="block col-start-6 lg:hidden">
+                <button id="boton" class=" items-center px-3 py-2 border rounded text-teal-lighter border-teal-light hover:text-gray-500 hover:border-red">
+                  <svg class="h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                    <title>Menu</title>
+                    <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/>
+                  </svg>
+              </button>
+            </div>
+
+
+
+        </div>
+    </nav>
+
+
+
+    <script src="../js/aplication.js"></script>
+</body>
+
+</html>
